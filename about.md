@@ -5,9 +5,9 @@ title: "关于：About"
 
 ## 个人简介：
 
-* 欧阳利平
-* Web后台开发、Android应用开发爱好者
-* 来自江西 现居广州
+* 邹玉龙
+* Android应用开发爱好者
+* 来自北京
 
 ## 联系方式
 
@@ -20,11 +20,8 @@ title: "关于：About"
 
 ### 关于本站：
 
-* 搭建于[Github](https://github.com/LippiOuYang/LippiOuYang.github.io),欢迎Fork
+* 搭建于[Github](https://github.com/zyl409214686/zouyulong.github.io),欢迎Fork
 * 模板及样式来源[Useful Paradigm](http://usefulparadigm.com/)
-* 折腾开始于2014年6月1日，基本在2014年6月15日完工。
+* 创建于2017年10月23日 
 
-## 其他流言
-* 未**女昏**人士；
-* 阿森纳球迷；
-* 实况足球忠实粉丝；
+
