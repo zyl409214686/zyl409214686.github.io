@@ -1,1283 +1,589 @@
 <!DOCTYPE html>
-<html lang="en">
-  
-  <head>
-    <meta name="baidu-site-verification" content="HvuxptDcq6" />
+<html lang="zh-cmn-Hans" prefix="og: http://ogp.me/ns#" class="han-init">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="首页：Home - Lippi-浮生志 - Lippi.OuYang(ouyanglip@gmail.com)">
-    <title>
-      首页：Home - Lippi-浮生志
-    </title>
-    <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS 
-    <link href="/css/blog.css" rel="stylesheet">-->
-    <!-- index css -->
-    <link href="/css/index.css" rel="stylesheet">
-	<!-- pagments CSS-->
-	<link href="/css/pygments.css" rel="stylesheet">
-        <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-1.11.0.js"> </script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
-   <!-- 回到顶部js-->
-    <script src="/js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>android开发录</title>
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/primer-css/css/primer.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/primer-markdown/dist/user-content.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/octicons/octicons/octicons.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/components/collection.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/components/repo-card.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/sections/repo-list.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/sections/mini-repo-list.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/components/boxed-group.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/globals/common.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/vendor/share.js/dist/css/share.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/globals/responsive.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/posts/index.css">
+    <!-- Latest compiled and minified CSS -->
+    
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/pages/index.css">
+    
 
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?085fc257cb1e774f7764a2cf527c393d";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
-
-	<script>
-    (function(){
-     var bp = document.createElement('script');
-	 bp.src = '//push.zhanzhang.baidu.com/push.js';
-	 var s = document.getElementsByTagName("script")[0];
-	 s.parentNode.insertBefore(bp, s);
-	 })();
-	</script>
-
-  </head>
-  
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">
-              Toggle navigation
-            </span>
-            <span class="icon-bar">
-            </span>
-            <span class="icon-bar">
-            </span>
-            <span class="icon-bar">
-            </span>
-          </button>
-          <a class="navbar-brand" href="/index.html">
-            Lippi-浮生志
-          </a>
+    
+    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="alternate" type="application/atom+xml" title="android开发录" href="/feed.xml">
+    <link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+    
+    <meta name="keywords" content="大龙龙龙, android开发录">
+    <meta name="description" content="“大龙龙龙的个人博客">
+    
+    
+        
+    
+    <meta property="og:url" content="http://localhost:4000/">
+    <meta property="og:site_name" content="android开发录">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="zh_CN">
+    
+    <script src="http://localhost:4000/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="http://localhost:4000/assets/js/jquery-ui.js"></script>
+    <script type="text/javascript">
+    function toggleMenu() {
+        var nav = document.getElementsByClassName("site-header-nav")[0];
+        if (nav.style.display == "inline-flex") {
+          nav.style.display = "none";
+        } else {
+          nav.style.display = "inline-flex";
+        }
+    }
+    </script>
+</head>
+<body class="home" data-mz="home">
+    <header class="site-header">
+        <div class="container">
+            <h1><a href="http://localhost:4000/" title="android开发录"><span class="octicon octicon-mark-github"></span> android开发录</a></h1>
+            <button class="collapsed mobile-visible" type="button" onclick="toggleMenu();">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <nav class="site-header-nav" role="navigation">
+                
+                <a href="/" class=" site-header-nav-item" target="" title="首页">首页</a>
+                
+                <a href="/categories/" class=" site-header-nav-item" target="" title="分类">分类</a>
+                
+                <a href="/wiki/" class=" site-header-nav-item" target="" title="维基">维基</a>
+                
+                <a href="/links/" class=" site-header-nav-item" target="" title="链接">链接</a>
+                
+                <a href="/about/" class=" site-header-nav-item" target="" title="关于">关于</a>
+                
+            </nav>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-            <li>
-              <a href="/categories.html">
-                分 类
-              </a>
-            </li>
-            <li>
-              <a href="/tags.html">
-                标 签
-              </a>
-            </li>
-            <li>
-              <a href="/archives.html">
-                归 档
-              </a>
-            </li>
-            <li>
-              <a href="/faqs.html">
-                备 忘
-              </a>
-            </li>
-            <li>
-              <a href="/about.html">
-                关 于
-              </a>
-            </li>
-          </ul> 
+    </header>
+    <!-- / header -->
+
+    <section class="banner">
+    <div class="collection-head">
+        <div class="container">
+            <div class="collection-title">
+              <h1 class="collection-header" id="sub-title"><span>“逆水行舟 一路前行”</span></h1>
+                <div class="collection-info">
+                    <span class="meta-info mobile-hidden">
+                        <span class="octicon octicon-location"></span>
+                        Beijing, China
+                    </span>
+                    <span class="meta-info">
+                        <span class="octicon octicon-organization"></span>
+                        <a href="" target="_blank"></a>
+                    </span>
+                     <span class="meta-info">
+                        <span class="octicon octicon-mark-github"></span>
+                        <a href="https://github.com/zyl409214686" target="_blank">zyl409214686</a>
+                    </span>
+                </div>
+            </div>
         </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
-    </nav>
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <!-- Blog Entries Column -->
-        <div class="col-md-8">
-          <!-- 
-<h1 class="page-header">
-  <small>
-    Draw my life with code
-  </small>
-</h1>
--->
-<!-- Loop output paged posts -->
-<div id="index" class="row">
-    <div class="post-area">
-     	 <div class="post-list-body">
-        <div post-cate="All">
-        <ul class="posts">
-	
-	</ul>
-	<!-- Pager indicator -->
-	<ul class="pager">
-	   
-	</ul>
-	</div>
-	
-
-	 
-       
-	<div post-cate="java">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/08/volley-source-code.html" class="post-list-item">
-                    <h2>Volley源码分析</h2>
-                    <span class="date">Aug 27, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/07/hibernate-cache-guide.html" class="post-list-item">
-                    <h2>Hibernate缓存配置笔记</h2>
-                    <span class="date">Jul 24, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/06/java-lambda-expression.html" class="post-list-item">
-                    <h2>Java Lambda简明教程</h2>
-                    <span class="date">Jun 3, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/04/java-virtual-mechine.html" class="post-list-item">
-                    <h2>Java虚拟机简介</h2>
-                    <span class="date">Apr 18, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/04/java-code-opt-one.html" class="post-list-item">
-                    <h2>优化java代码建议(1)</h2>
-                    <span class="date">Apr 12, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/02/cache.html" class="post-list-item">
-                    <h2>谈谈缓存和基本的缓存算法</h2>
-                    <span class="date">Feb 4, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/12/improve-webServer-performance.html" class="post-list-item">
-                    <h2>谈谈如何提高web服务器并发性能</h2>
-                    <span class="date">Dec 5, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/11/java-inner-class.html" class="post-list-item">
-                    <h2>java中内部类</h2>
-                    <span class="date">Nov 14, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/11/java-concurrent-collections.html" class="post-list-item">
-                    <h2>java同步容器与并发容器</h2>
-                    <span class="date">Nov 8, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/09/returning-null.html" class="post-list-item">
-                    <h2>关于返回 Null 值的问题</h2>
-                    <span class="date">Sep 18, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/why-jdk-string-is-final.html" class="post-list-item">
-                    <h2>为什么 jdk 中把 String 类设计成 final</h2>
-                    <span class="date">Aug 29, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/78-golden-rules-of-the-java-programming.html" class="post-list-item">
-                    <h2>java编程的78条黄金法则</h2>
-                    <span class="date">Aug 16, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/java-multithread.html" class="post-list-item">
-                    <h2>java并发和多线程</h2>
-                    <span class="date">Aug 2, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/android-UI-Thread.html" class="post-list-item">
-                    <h2>Android UI线程和子线程、Service通信</h2>
-                    <span class="date">Jul 19, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/android-networkOnMainThreadException.html" class="post-list-item">
-                    <h2>从android.os.NetworkOnMainThreadException引发的思考</h2>
-                    <span class="date">Jul 18, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/06/26-methods-to-improve-java-performance.html" class="post-list-item">
-                    <h2>Java编程Tips</h2>
-                    <span class="date">Jun 18, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/06/15/in-the-rain.html" class="post-list-item">
-                    <h2>在雨中</h2>
-                    <span class="date">Jun 15, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="c">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2014/12/c-code-opt.html" class="post-list-item">
-                    <h2>C代码优化小贴士</h2>
-                    <span class="date">Dec 27, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/libevent.html" class="post-list-item">
-                    <h2>处理并发之二：libevent的eventbuffer</h2>
-                    <span class="date">Aug 24, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/linux-epoll.html" class="post-list-item">
-                    <h2>处理并发之一：LINUX Epoll机制介绍</h2>
-                    <span class="date">Aug 23, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/c-advaced-programming.html" class="post-list-item">
-                    <h2>C语言高级编程指南</h2>
-                    <span class="date">Jul 5, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="programming">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/03/install-texlive-in-ubuntu.html" class="post-list-item">
-                    <h2>在Ubuntu下安装和编译LaTex</h2>
-                    <span class="date">Mar 15, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/03/github-pages-blog.html" class="post-list-item">
-                    <h2>利用github-pages建立个人博客</h2>
-                    <span class="date">Mar 1, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/qualified-programmer-should-read-what-books.html" class="post-list-item">
-                    <h2>一个合格的程序员应该读过哪些书</h2>
-                    <span class="date">Jul 15, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/c-advaced-programming.html" class="post-list-item">
-                    <h2>C语言高级编程指南</h2>
-                    <span class="date">Jul 5, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="jekyll">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2014/07/use-jekyll-build-blog-on-github.html" class="post-list-item">
-                    <h2>使用jekyll在Github上搭建博客</h2>
-                    <span class="date">Jul 15, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/markdown-syntax.html" class="post-list-item">
-                    <h2>Markdown 语法 (简体中文版)</h2>
-                    <span class="date">Jul 11, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/markdown-basics.html" class="post-list-item">
-                    <h2>markdown 快速入门</h2>
-                    <span class="date">Jul 10, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="other">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/03/vim-plugins.html" class="post-list-item">
-                    <h2>一些强大的Vim插件</h2>
-                    <span class="date">Mar 20, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/03/install-texlive-in-ubuntu.html" class="post-list-item">
-                    <h2>在Ubuntu下安装和编译LaTex</h2>
-                    <span class="date">Mar 15, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/03/github-pages-blog.html" class="post-list-item">
-                    <h2>利用github-pages建立个人博客</h2>
-                    <span class="date">Mar 1, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/qualified-programmer-should-read-what-books.html" class="post-list-item">
-                    <h2>一个合格的程序员应该读过哪些书</h2>
-                    <span class="date">Jul 15, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="reprints">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2014/09/returning-null.html" class="post-list-item">
-                    <h2>关于返回 Null 值的问题</h2>
-                    <span class="date">Sep 18, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/why-jdk-string-is-final.html" class="post-list-item">
-                    <h2>为什么 jdk 中把 String 类设计成 final</h2>
-                    <span class="date">Aug 29, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/08/78-golden-rules-of-the-java-programming.html" class="post-list-item">
-                    <h2>java编程的78条黄金法则</h2>
-                    <span class="date">Aug 16, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/use-jekyll-build-blog-on-github.html" class="post-list-item">
-                    <h2>使用jekyll在Github上搭建博客</h2>
-                    <span class="date">Jul 15, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/07/qualified-programmer-should-read-what-books.html" class="post-list-item">
-                    <h2>一个合格的程序员应该读过哪些书</h2>
-                    <span class="date">Jul 15, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="Android">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/09/android-studio-plugins.html" class="post-list-item">
-                    <h2>提高效率的Android Studio插件</h2>
-                    <span class="date">Sep 9, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/android-opensource.html" class="post-list-item">
-                    <h2>值得推荐的android开源框架</h2>
-                    <span class="date">Oct 1, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="web">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/04/web-transmission-basis.html" class="post-list-item">
-                    <h2>网络传输基础</h2>
-                    <span class="date">Apr 16, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/11/web-server.html" class="post-list-item">
-                    <h2>也谈如何构建高性能服务端程序</h2>
-                    <span class="date">Nov 19, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/xmpp-analise.html" class="post-list-item">
-                    <h2>XMPP协议分析-具体分析</h2>
-                    <span class="date">Oct 31, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/androidDP-project.html" class="post-list-item">
-                    <h2>Androidpn 消息推送总结</h2>
-                    <span class="date">Oct 31, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/how-to-use-smack.html" class="post-list-item">
-                    <h2>Smack开发手册</h2>
-                    <span class="date">Oct 30, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/androidDP-introduction.html" class="post-list-item">
-                    <h2>AndroidPN消息推送</h2>
-                    <span class="date">Oct 30, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/xmpp.html" class="post-list-item">
-                    <h2>XMPP协议分析-原理</h2>
-                    <span class="date">Oct 28, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/jsp-jfreechart.html" class="post-list-item">
-                    <h2>使用Jfreechart生成曲线显示到JSP中</h2>
-                    <span class="date">Oct 22, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/10/how-http-works.html" class="post-list-item">
-                    <h2>当我们打开网页时发生了什么</h2>
-                    <span class="date">Oct 11, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="book">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2014/11/how-to-evaluate-the-hackers-and-painters.html" class="post-list-item">
-                    <h2>如何评价『黑客与画家』</h2>
-                    <span class="date">Nov 1, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="algorithm">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2014/12/skip-list.html" class="post-list-item">
-                    <h2>skip list跳跃表实现</h2>
-                    <span class="date">Dec 18, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/11/graph.html" class="post-list-item">
-                    <h2>计算机算法--图算法介绍</h2>
-                    <span class="date">Nov 29, 2014</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2014/11/leveldb.html" class="post-list-item">
-                    <h2>leveldb原理剖析</h2>
-                    <span class="date">Nov 18, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="c/c++">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2014/12/c-open-project.html" class="post-list-item">
-                    <h2>值得推荐的C/C++框架和库</h2>
-                    <span class="date">Dec 13, 2014</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="android">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/08/volley-source-code.html" class="post-list-item">
-                    <h2>Volley源码分析</h2>
-                    <span class="date">Aug 27, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/05/android-links.html" class="post-list-item">
-                    <h2>安卓开发者必备的42个链接</h2>
-                    <span class="date">May 19, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/05/define-custom-view.html" class="post-list-item">
-                    <h2>Android自定义视图教程</h2>
-                    <span class="date">May 17, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/03/android-studio-prefrence.html" class="post-list-item">
-                    <h2>Android Studio多渠道打包和代码混淆教程</h2>
-                    <span class="date">Mar 18, 2015</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="Gradle">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/05/gradle-dependency-management.html" class="post-list-item">
-                    <h2>Gradle系列教程之依赖管理</h2>
-                    <span class="date">May 5, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/04/gradle-task-management.html" class="post-list-item">
-                    <h2>Gradle系列教程之任务管理</h2>
-                    <span class="date">Apr 30, 2015</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="lambda">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/06/java-lambda-expression.html" class="post-list-item">
-                    <h2>Java Lambda简明教程</h2>
-                    <span class="date">Jun 3, 2015</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="gradle">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/08/dagger-dependency-injection.html" class="post-list-item">
-                    <h2>Dagger依赖注入浅析</h2>
-                    <span class="date">Aug 13, 2015</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/07/gradle-tasks-guide.html" class="post-list-item">
-                    <h2>彻底理解Gradle的任务</h2>
-                    <span class="date">Jul 27, 2015</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="Latex">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2015/08/latex-fonts-settings.html" class="post-list-item">
-                    <h2>Latex中英文环境设置</h2>
-                    <span class="date">Aug 22, 2015</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="Unix/Linux">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2016/02/baidu-spider-forbidden.html" class="post-list-item">
-                    <h2>解决百度爬虫无法抓取github pages</h2>
-                    <span class="date">Feb 18, 2016</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2016/01/apache-configuration-in-ubuntu.html" class="post-list-item">
-                    <h2>Ubuntu下Apache服务器的配置</h2>
-                    <span class="date">Jan 20, 2016</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2016/01/tmux-guide.html" class="post-list-item">
-                    <h2>终端复用软件之tmux简介</h2>
-                    <span class="date">Jan 19, 2016</span>
-                  </a>
-		</li>
-                
-              
-                
-		<li>
-                  <a href="/blog/2015/08/linux-zsh.html" class="post-list-item">
-                    <h2>Zsh-Linux下最好的Shell简介</h2>
-                    <span class="date">Aug 23, 2015</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="Git">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2016/02/git-guide.html" class="post-list-item">
-                    <h2>Git操作手册|命令速查表</h2>
-                    <span class="date">Feb 20, 2016</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	<div post-cate="hi">
-
-          <ul class="posts">
-            
-              
-                
-              
-            
-              
-                
-		<li>
-                  <a href="/blog/2016/02/hi.html" class="post-list-item">
-                    <h2>hi</h2>
-                    <span class="date">Feb 22, 2016</span>
-                  </a>
-		</li>
-                
-              
-            
-          </ul>
-	</div>
-        
-	
-	 </div>
-
-</div>
-</div>
-
-        </div>
-
-	 <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
-	      <a href="javascript:;">
-		<div class="arrow"></div>
-		<div class="stick"></div>
-	      </a>
-	    </div>
-
-        <!-- Blog Sidebar Widgets Column -->
-        <div class="col-md-4">
-          <!-- Blog Search Well -->  
-	
-                    <div class="shadow-corner-curl hidden-xs">
-	  <div class="categories-list-header">站内搜索</div>
-<!-- 使用该代码即表示您同意接受 Google 自定义搜索服务条款。 -->
-<!-- 有关服务条款，请访问 http://www.google.com/cse/docs/tos.html?hl=zh-CN -->
-<form name="cse" id="searchbox_demo" action="/search.html">
-  <input type="hidden" name="cref" value="" />
-  <input type="hidden" name="ie" value="utf-8" />
-  <input type="hidden" name="hl" value="zh-CN" />
-  <input name="q" type="text" size="30" />
-  <input type="submit" name="sa" value="搜索" /> 
-</form>
-<script type="text/javascript" src="http://www.google.com/cse/tools/onthefly?form=searchbox_demo&lang=zh-CN"></script>			      
-     
-            
-</div>
-
-
-
-
-
-
-
-
-          <!-- Blog Categories Well -->
-              
-
-    <div class="shadow-corner-curl hidden-xs">
-      <div class="categories-list-header">
-        Categories
-      </div>
-      
-      <a href="/index.html" class="categories-list-item" cate="All">
-        All<span class="my-badge"> 61</span>
-      </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="java">
-          java <span class="my-badge">17</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="c">
-          c <span class="my-badge">4</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="programming">
-          programming <span class="my-badge">4</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="jekyll">
-          jekyll <span class="my-badge">3</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="other">
-          other <span class="my-badge">4</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="reprints">
-          reprints <span class="my-badge">5</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="Android">
-          Android <span class="my-badge">2</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="web">
-          web <span class="my-badge">9</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="book">
-          book <span class="my-badge">1</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="algorithm">
-          algorithm <span class="my-badge">3</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="c/c++">
-          c/c++ <span class="my-badge">1</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="android">
-          android <span class="my-badge">4</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="Gradle">
-          Gradle <span class="my-badge">2</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="lambda">
-          lambda <span class="my-badge">1</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="gradle">
-          gradle <span class="my-badge">2</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="Latex">
-          Latex <span class="my-badge">1</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="Unix/Linux">
-          Unix/Linux <span class="my-badge">4</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="Git">
-          Git <span class="my-badge">1</span>
-        </a>
-      
-        <a href="javascript:;" class="categories-list-item" cate="hi">
-          hi <span class="my-badge">1</span>
-        </a>
-      
     </div>
-
-
-
- 
-         
-              <div class="shadow-corner-curl hidden-xs">
-      <div class="categories-list-header">
-        热门文章
-      </div>
-
- <ul class="list-unstyled">
-      	<li><a href="/blog/2015/03/github-pages-blog.html" class="categories-list-item">利用Github-pages建立个人博客</a></li>	
-<li><a href="/blog/2014/07/qualified-programmer-should-read-what-books.html" class="categories-list-item">一个合格的程序员应该读过哪些书</a></li>
-<li><a href="/blog/2014/12/c-open-project.html" class="categories-list-item">值得推荐的C/C++框架和库</a></li>
-<li><a href="/blog/2014/12/c-code-opt.html" class="categories-list-item">C代码优化小贴士</a></li>	
-<li><a href="/blog/2014/06/26-methods-to-improve-java-performance.html" class="categories-list-item">Java编程Tips</a></li>
-<li><a href="/blog/2015/04/gradle-task-management.html" class="categories-list-item">Gradle系列教程之任务管理</a></li>	
-<li><a href="/blog/2015/05/android-links.html" class="categories-list-item">安卓开发者必备的42个链接</a></li>
-<li><a href="/blog/2015/05/gradle-dependency-management.html" class="categories-list-item">Gradle系列教程之依赖管理</a></li>
-<li><a href="/blog/2014/10/android-opensource.html" class="categories-list-item">值得推荐的android开源框架</a></li>	 
-<li><a href="/blog/2015/07/hibernate-cache-guide.html" class="categories-list-item">Hibernate缓存配置笔记</a></li>	
-	 
-     </ul>
+</section>
+<!-- /.banner -->
+<section class="container content">
+    <div class="columns">
+        <div class="column two-thirds">
+            <ol class="repo-list">
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/10/14/guanggoo-android-app/">发布一款光谷社区第三方 Android App</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        在过去的一个来月，我利用业余时间做了一款光谷社区的第三方 Android 客户端。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/10/14
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/10/05/rtfsc-methods-and-meaning/">阅读源码的意义与方法</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        思索了这两个问题良久，也去知乎找了一些相关话题的问答，但并没有标准答案。所以，我这里也只是记录一些我对此的看法，也许会随着 RTFSC 阅历的丰富而发生变化，我会记录更新于 https://github.com/mzlogin/rtfsc-android。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/10/05
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/09/23/rtfsc-android-start/">Android 源码分析开篇</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        在心中谋划已久的此事终于要开篇了，虽然迟了点，十年前没有种的树，就从现在开始种吧。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/09/23
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Android" title="Android">Android</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/09/11/joins-in-sql/">图解 SQL 里的各种 JOIN</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        从业以来主要在做客户端，用到的数据库都是表结构比较简单的 SQLite，以我那还给老师一大半的 SQL 水平倒也能对付。现在偶尔需要到后台的 SQL Server 里追查一些数据问题，就显得有点捉襟见肘了，特别是各种 JOIN，有时候傻傻分不清楚，于是索性弄明白并做个记录。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/09/11
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Database" title="Database">Database</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/09/01/markdown-odd-skills/">关于 Markdown 的一些奇技淫巧</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        自从几年前开始在 GitHub 玩耍，接触到 Markdown 之后，就一发不可收拾，在各种文档编辑上，有条件用 Markdown 的尽量用，不能用的创造条件也要用——README、博客、公众号、接口文档等等全都是，比如当前这篇文章就是用 Markdown 编辑而成。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/09/01
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Markdown" title="Markdown">Markdown</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/08/20/java-auto-boxing-unboxing/">从一个 NullPointerException 探究 Java 的自动装箱拆箱机制</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        前天遇到了一个 NullPointerException，触发的代码类似下面这样：
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/08/20
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Java" title="Java">Java</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/04/09/a-difficult-decision/">我做了一个有点艰难的决定</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        我做了一个有点艰难的决定，离开帝都，回到了武汉工作和生活。
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/04/09
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Blog" title="Blog">Blog</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+                <li class="repo-list-item">
+                    <h3 class="repo-list-name">
+                      <a href="/2017/02/19/the-kite-runner/">读书：追风筝的人</a>
+                    </h3>
+                    <p class="repo-list-description">
+                        《追风筝的人》确实是一部相当优秀而又深刻的作品。——小别老师
+                    </p>
+                    <p class="repo-list-meta">
+                        <span class="meta-info">
+                          <span class="octicon octicon-calendar"></span> 2017/02/19
+                        </span>
+                        
+                        <span class="meta-info">
+                          <span class="octicon octicon-file-directory"></span>
+                          <a href="/categories/#Blog" title="Blog">Blog</a>
+                        </span>
+                        
+                    </p>
+                </li>
+                
+            </ol>
+        </div>
+        <div class="column one-third">
+            
+<h3>Search</h3>
+<div id="site_search">
+    <input type="text" id="search_box" placeholder="Search">
 </div>
- 
-       
-                   <div class="shadow-corner-curl hidden-xs">
-      <div class="categories-list-header">
-        相关链接
-      </div>    
- <ul class="list-unstyled">
-              <li>
-                <a href="https://github.com/" class="categories-list-item">
-                   GitHub 
-                </a>
-              </li>
-<li>
-                <a href="http://www.stackoverflow.com/" class="categories-list-item">
-                   Stack Overflow 
-                </a>
-              </li>
-<li>
-                <a href="http://jekyllrb.com/docs/posts/" class="categories-list-item">
-                  Jekyll文档 
-                </a>
-              </li>
-               
-               <li>
-                <a href="https://news.ycombinator.com/" class="categories-list-item">
-                   Hacker News 
-                </a>
-              </li>        
-              
-              <li>
-                <a href="http://developer.android.com/" class="categories-list-item">
-                   Android Developer 
-                </a>
-              </li>
-              
-              <li>
-                <a href="http://www.ruanyifeng.com/blog/" class="categories-list-item">
-                   Ruanyifeng's Blog 
-                </a>
-              </li>
+
+<ul id="search_results"></ul>
+
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/modules/sidebar-search.css">
+<script src="http://localhost:4000/assets/js/jekyll-search.min.js"></script>
+<script src="http://localhost:4000/assets/js/search.js"></script>
+
+<script type="text/javascript">
+SimpleJekyllSearch({
+    searchInput: document.getElementById('search_box'),
+    resultsContainer: document.getElementById('search_results'),
+    json: 'http://localhost:4000/assets/search_data.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+})
+</script>
+
+            <h3>My Popular Repositories</h3>
 
 
-  <li>
-                <a href="http://www.importnew.com/" class="categories-list-item">
-                   ImportNew 
-                </a>
-              </li>
-<li>
-                <a href="http://guides.codepath.com/android" class="categories-list-item">
-                   CodePath Android Cliffnotes 
-                </a>
-              </li>
-<li>
-                <a href="http://androidweekly.net/" class="categories-list-item">
-                   Androidweekly 	
-                </a>
-              </li>
-<li>
-			<a href="http://mvnrepository.com/" class="categories-list-item">
-                   Mvnrepository 
-                </a>
-              </li>
-<li>
-			<a href="http://www.iteye.com/" class="categories-list-item">
-                  Iteye 
-                </a>
-              </li>
-              		
+
+<a href="https://github.com/zyl409214686/CustomKeyboardView" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="CustomKeyboardView">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    CustomKeyboardView
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text">android自定义键盘、自定义身份证键盘、支持拓展。</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="2 stars">
+                    <span class="octicon octicon-star"></span> 2
+                </span>
+                <span class="meta-info" title="0 forks">
+                    <span class="octicon octicon-git-branch"></span> 0
+                </span>
+                <span class="meta-info" title="Last updated：2017-08-03 10:44:38 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2017-08-03 10:44:38 UTC">2017-08-03</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="https://github.com/zyl409214686/WeatherForKotlin" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="WeatherForKotlin">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    WeatherForKotlin
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text">kotlin + anko编写的天气预报app，主要以练手为目的。</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="1 stars">
+                    <span class="octicon octicon-star"></span> 1
+                </span>
+                <span class="meta-info" title="0 forks">
+                    <span class="octicon octicon-git-branch"></span> 0
+                </span>
+                <span class="meta-info" title="Last updated：2017-07-24 10:43:45 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2017-07-24 10:43:45 UTC">2017-07-24</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="https://github.com/zyl409214686/FamilyLibraryManager" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="FamilyLibraryManager">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    FamilyLibraryManager
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text">家庭图书馆管理 安卓版</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="1 stars">
+                    <span class="octicon octicon-star"></span> 1
+                </span>
+                <span class="meta-info" title="1 forks">
+                    <span class="octicon octicon-git-branch"></span> 1
+                </span>
+                <span class="meta-info" title="Last updated：2017-05-03 03:37:56 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2017-05-03 03:37:56 UTC">2017-05-03</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="https://github.com/zyl409214686/CustomPasswordInputView" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="CustomPasswordInputView">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    CustomPasswordInputView
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text">仿微信支付宝密码输入框</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="1 stars">
+                    <span class="octicon octicon-star"></span> 1
+                </span>
+                <span class="meta-info" title="0 forks">
+                    <span class="octicon octicon-git-branch"></span> 0
+                </span>
+                <span class="meta-info" title="Last updated：2017-09-08 05:52:19 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2017-09-08 05:52:19 UTC">2017-09-08</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+<a href="https://github.com/zyl409214686/SeeWeather" target="_blank" class="card text-center">
+    <div class="thumbnail">
+        <div class="card-image geopattern" data-pattern-id="SeeWeather">
+            <div class="card-image-cell">
+                <h3 class="card-title">
+                    SeeWeather
+                </h3>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="card-description">
+                <p class="card-text"><img class="emoji" title=":partly_sunny:" alt=":partly_sunny:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/26c5.png" height="20" width="20"> RxJava+RxBus+Retrofit+Glide+Material Design Weather App</p>
+            </div>
+            <div class="card-text">
+                <span class="meta-info" title="0 stars">
+                    <span class="octicon octicon-star"></span> 0
+                </span>
+                <span class="meta-info" title="0 forks">
+                    <span class="octicon octicon-git-branch"></span> 0
+                </span>
+                <span class="meta-info" title="Last updated：2017-03-20 08:38:28 UTC">
+                    <span class="octicon octicon-clock"></span>
+                    <time datetime="2017-03-20 08:38:28 UTC">2017-03-20</time>
+                </span>
+            </div>
+        </div>
+    </div>
+</a>
+
+
+
+        </div>
+    </div>
+    <div class="pagination text-align">
+      <div class="btn-group">
+        
+            <button disabled href="javascript:;" class="btn btn-outline">«</button>
+        
+        
+            <a href="javascript:;" class="active btn btn-outline">1</a>
+        
+        
+          
+              <a href="/page2" class="btn btn-outline">2</a>
+          
+        
+          
+              <a href="/page3" class="btn btn-outline">3</a>
+          
+        
+          
+              <a href="/page4" class="btn btn-outline">4</a>
+          
+        
+          
+              <a href="/page5" class="btn btn-outline">5</a>
+          
+        
+          
+              <a href="/page6" class="btn btn-outline">6</a>
+          
+        
+          
+              <a href="/page7" class="btn btn-outline">7</a>
+          
+        
+          
+              <a href="/page8" class="btn btn-outline">8</a>
+          
+        
+          
+              <a href="/page9" class="btn btn-outline">9</a>
+          
+        
+          
+              <a href="/page10" class="btn btn-outline">10</a>
+          
+        
+          
+              <a href="/page11" class="btn btn-outline">11</a>
+          
+        
+          
+              <a href="/page12" class="btn btn-outline">12</a>
+          
+        
+          
+              <a href="/page13" class="btn btn-outline">13</a>
+          
+        
+        
+            <a href="/page2" class="btn btn-outline">»</a>
+        
+        </div>
+    </div>
+    <!-- /pagination -->
+</section>
+<!-- /section.content -->
+
+    <footer class="container">
+        <div class="site-footer" role="contentinfo">
+            <div class="copyright left mobile-block">
+                    © 2015
+                    <span title="ZouYuLong">ZouYuLong</span>
+                    <a href="javascript:window.scrollTo(0,0)" class="right mobile-visible">TOP</a>
+            </div>
+
+            <ul class="site-footer-links right mobile-hidden">
+                <li>
+                    <a href="javascript:window.scrollTo(0,0)">TOP</a>
+                </li>
+            </ul>
+            <a href="http://github.com/zyl409214686/zyl409214686.github.io" target="_blank" aria-label="view source code">
+                <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+            </a>
+            <ul class="site-footer-links mobile-hidden">
+                
+                <li>
+                    <a href="/" title="首页" target="">首页</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/" title="分类" target="">分类</a>
+                </li>
+                
+                <li>
+                    <a href="/wiki/" title="维基" target="">维基</a>
+                </li>
+                
+                <li>
+                    <a href="/links/" title="链接" target="">链接</a>
+                </li>
+                
+                <li>
+                    <a href="/about/" title="关于" target="">关于</a>
+                </li>
+                
+                <li><a href="/feed.xml"><span class="octicon octicon-rss" style="color:orange;"></span></a></li>
             </ul>
 
-</div>
- 
-
-          <!-- Side Widget Well -->
-           
         </div>
-      </div>
+    </footer>
+    <!-- / footer -->
+    <script src="http://localhost:4000/assets/vendor/share.js/dist/js/share.min.js"></script>
+    <script src="http://localhost:4000/assets/js/geopattern.js"></script>
+    <script src="http://localhost:4000/assets/js/prism.js"></script>
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/globals/prism.css">
+    <script>
+      jQuery(document).ready(function($) {
+        // geopattern
+        $('.geopattern').each(function(){
+          $(this).geopattern($(this).data('pattern-id'));
+        });
+       // hljs.initHighlightingOnLoad();
+      });
+    </script>
+    
+    <div style="display:none">
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+        ga('create', 'UA-80669434-1', 'auto');
+        ga('send', 'pageview');
 
-
-      <!-- /.row -->
-      <hr>
-      <!-- Footer -->
-      <footer>
-           <p><small>Designed by <a href="https://github.com/EZLippi">Lippi</a> | Free hosted at <a href="https://github.com/EZLippi/EZLippi.github.io">Github</a> | Copyright 2014 - 2017  
-										</p>
-
-	<!--
-<div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <a href="mailto:ouyanglip@gmail.com"><span class="glyphicon glyphicon-envelope"></span> ouyanglip@gmail.com</a>
-        <span class="point"> · </span>
-        
-          
-          <a href="https://github.com/LippiOuYang">
-            <span class="icon">
-              <svg viewBox="0 0 16 16">
-                <path fill="#aaa" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-              </svg>
-            </span>
-            Github
-          </a>
-          
-          
-          <span class="point"> · </span>
-          <span><a href="/feed.xml">RSS</a></span>
-          <span class="point"> · </span>
-          <span>Draw my life with code</span>
-          <span class="point"> · </span>
-          <span>&copy; 2014 LippiOuYang</span>
-          <span class="point"> · </span>
-          <span>Designed by <a href="https://github.com/LippiOuYang">Lippi</a></span>
-
-      </div>
+      </script>
     </div>
-    </div>
-	-->
- 
-              <div style="display:none;"><script src="http://s95.cnzz.com/z_stat.php?id=1254799848&web_id=1254799848" language="JavaScript"></script></div>
- 
-
-      </footer>
-    </div>
-    <!-- /.container -->
-  </body>
-
+    
+</body>
 </html>
