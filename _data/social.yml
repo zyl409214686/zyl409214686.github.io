@@ -1,27 +1,20 @@
 - sitename: GitHub
-  name: mzlogin
-  url: https://github.com/mzlogin
+  name: zyl409214686
+  url: https://github.com/zyl409214686
+
+- sitename: 简书
+  name: 好大一只龍
+  url: http://www.jianshu.com/u/4f68c0275727
 
 - sitename: 掘金
-  name: mzlogin
-  url: http://gold.xitu.io/user/570ddaeb2e958a005c63b2da
-
-- sitename: LinkedIn
-  name: mazhuang
-  url: https://www.linkedin.com/in/mazhuang
+  name: zyl409214686
+  url: https://juejin.im/user/595b001ff265da6c21535598
 
 - sitename: 博客
-  name: 码志
-  url: http://mazhuang.org
+  name: 大龙龙龙之家
+  url: http://zouyulong.com
 
 - sitename: 微博
   name: mzlogin
-  url: http://weibo.com/mzlogin
+  url: http://weibo.com/u/1870433533/home?wvr=5&lf=reg
 
-- sitename: 知乎
-  name: mzlogin
-  url: http://www.zhihu.com/people/mzlogin
-
-- sitename: 豆瓣
-  name: 壮哥不胖
-  url: http://www.douban.com/people/freedim
