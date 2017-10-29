@@ -6,12 +6,12 @@ description:
 keywords: Kotlin
 ---
 
-####介绍
+#### 介绍
 
 Kotlin是JetBrains创造的一种编程语言，IntelliJ IDEA也是这个公司的。它是专为大型软件项目而设计，旨在改进Java，重点是可读性，正确性和提升开发人员的生产力。
 Kotlin是为了应对Java中的一些限制而创建的，这些限制阻碍了JetBrains软件产品的开发，并且对于其它所有JVM语言的评估也被证明是不合适的。 由于Kotlin的目标是用于改进产品，因此它非常强调与Java代码和Java标准库的互操作。
 
-####特性
+#### 特性
 以下是为Android提供最大价值的特性。并解决了困扰客户端应用程序开发的特定问题。 有关特性的全面列表，请参阅[官方Kotlin参考文档](http://kotlinlang.org/docs/reference/)。
 
 1. 互操作性
@@ -100,7 +100,7 @@ if (x != null) {
 
 - JetBrains正在积极的支持Square项目。最近，Retrofit和Dragger的运行已经被支持。 然而，Kotlin的很多语言功能消除了注释处理器的需要。 例如，我可以使用委托属性重新实现大多数ButterKnife作为运行时库。
 
-####用例
+#### 用例
 使用JAVA开发Square Cash Android应用程序存在痛点以及Kotlin的功能如何改善情况时存在的一些具体例子。
 - 实用方法
   所谓的静态实用方法丢弃了我们的代码库。存在大量图书馆，如Guava，commons-lang等，以提供这些简化与指定类型的常见交互的方法。
@@ -149,7 +149,7 @@ buttonView.setOnClickListener(new OnClickListener() {
 当您开始使用RxJava构建异步数据流时，可以将数百行代码减少到10以下。代码的实际行为不会改变。 只有通过匿名类，长泛型类型声明和中间值类型的详细创建才能消除过多的样板。
 
 
-####练习
+#### 练习
 >附上自己的一个kotlin  练习项目， 一个十分简单天气app。
 >https://github.com/zyl409214686/WeatherForKotlin
 
