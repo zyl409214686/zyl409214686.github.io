@@ -1,3 +1,11 @@
+---
+layout: post
+title: android 自定义范围选取控件CustomRangeSeekBar
+categories: 自定义view
+description: 
+keywords: android自定义view, android自定义键盘
+---
+
 最近在做一款音乐剪切小工具， 需要用到一个范围选取的控件。没有合适的系统控件只能自定义一个。
 
 # 效果图：
