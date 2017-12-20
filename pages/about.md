@@ -2,13 +2,13 @@
 layout: page
 title: About
 description: 打码改变世界
-keywords: ZouYuLong, 邹玉龙
+keywords: ZouYuLong, 大龙龙龙
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-大家好， 我是邹玉龙
+大家好， 我是大龙龙龙
 
 仰慕「优雅编码的艺术」。
 
