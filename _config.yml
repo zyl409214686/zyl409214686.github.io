@@ -104,6 +104,7 @@ gitalk:
     repo: zyl409214686.github.io
     clientID: 34a2a3cd8c69589377af
     clientSecret: fcaec78f7c49ec06e8e8b2ff5b94d7ae7d7994de
+    title: document.title
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
