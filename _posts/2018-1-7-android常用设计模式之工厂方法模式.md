@@ -1,3 +1,10 @@
+---
+layout: post
+title: android常用设计模式之工厂方法模式
+categories: 设计模式
+description: android常用设计模式之工厂方法模式
+---
+
 >定义：工厂方法模式属于创建型设计模式。定义一个用于创建对象的接口，让子类决定实例化哪个类。工厂方法使一个类的实例化延迟到其子类。
 
 ##### 工厂方法模式结构图：
@@ -64,7 +71,7 @@ public class LivingDetectionFactory extends AbstractLivingDetectionFactory {
 
 - 工厂类负责创建的对象比较少。
 - 客户只需知道传入工厂类的参数，而无须关心创建对象的逻辑。
-优点：
+  优点：
 
 ##### 优点
 - 使用户根据参数获得对应的类实例，避免了直接实例化类，降低了耦合性。

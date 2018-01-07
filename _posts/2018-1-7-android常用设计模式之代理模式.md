@@ -1,3 +1,10 @@
+---
+layout: post
+title: android常用设计模式之代理模式
+categories: 设计模式
+description: android常用设计模式之代理模式
+---
+
 >定义：代理模式属结构型设计模式。为其他对象提供一种代理以控制对这个对象的访问。
 
 ## 代理模式结构图
